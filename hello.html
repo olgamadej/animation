@@ -1,11 +1,24 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <title>Webpage from the first lecture</title>
+  <title>Parallax</title>
+  <style type="text/css">
+    body {background:#111; margin:0px;}
+    div #banner {
+      width:100%;
+      height: 500px;
+      margin: 0px auto;
+      background-color: #000;
+      animation: animate-background linear 50s infinite;
+    }
+    @keyframes animate-background{
+      from{}
+      to{}
+    }
+  </style>
 </head>
 
 <body>
-  Hello, world!
-  And hello, again!
+  <div id="banner"> </div>
 </body>
 </html>
